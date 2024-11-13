@@ -1,6 +1,5 @@
 <p align='center'>
   <img alt="contributors" src="https://img.shields.io/github/contributors/KieSun/fucking-frontend.svg" />
-  <img alt="Commit" src="https://img.shields.io/github/commit-activity/w/KieSun/fucking-frontend" />
   <img alt="Stars" src="https://img.shields.io/github/stars/KieSun/fucking-frontend" />
   <img alt="Forks" src="https://img.shields.io/github/forks/KieSun/fucking-frontend" />
   <img alt="GitHub" src="https://img.shields.io/github/license/KieSun/fucking-frontend">
@@ -11,9 +10,13 @@
   <img src="./img/logo.png" width="300" />
 </p>
 
-<div align="center"><strong>重要资料已经整合在公众号「前端真好玩」，另外还附赠了前端 10 万字的面试攻略，已经帮助上千人拿到 offer。扫码发送关键字「资料」，你会发现相见恨晚！</strong></div>
+## 真全栈，全免费项目，学完直接上一个台阶
 
-<div align="center"><img src='./img/qrcode.jpeg' width=150 alt=''> </img></div>
+真全栈项目，适合前端进阶及转方向使用。项目包括前端、后端、Web3 最新技术栈，大杂烩，技术一锅端。
+
+另外不是网上那些各种仿 xxx 的简单项目，尤其是后端会包括很多东西，学完直接上手做后端项目完全没问题。
+
+教学全免费，在 B 站直播，具体内容可点击仓库查看：https://github.com/KieSun/fullstack-project。
 
 ## 🔥 这是什么？
 
@@ -81,6 +84,7 @@
     - [节流与防抖](#节流与防抖)
     - [柯里化](#柯里化)
     - [垃圾回收](#垃圾回收)
+    - [设计模式](#设计模式)
     - [其他零散但重要的知识点](#其他零散但重要的知识点)
   - [HTML](#html)
     - [语义化](#语义化)
@@ -146,7 +150,7 @@
 
 ## 如何高效自学
 
-![Z0qdJz](https://yck-1254263422.file.myqcloud.com/uPic/Z0qdJz.png)
+![Z0qdJz](./img/learn.webp)
 
 自学是每个工程师都需要掌握的一项技能。这个学习方法笔者百试百灵，学习任何技术都会用上这个思路。另外我们还能通过这个思路拓宽自己的技术栈，将各个知识联系起来建立自己的知识体系，并且通过这种学习方式学到的知识也不容易遗忘。
 
@@ -189,7 +193,7 @@
 
 #### 数据类型
 
-JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增的 `bigint`。
+JS 数据类型分为两大类及八种数据类型，注意别漏了新增的 `bigint`。
 
 - [ ] 文档：
   - [ ] [JavaScript 数据类型和数据结构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
@@ -413,6 +417,15 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [深入理解 Chrome V8 垃圾回收机制](https://github.com/yacan8/blog/issues/33)，该文章的参考文献也可阅读下
   - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
   - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
+
+#### 设计模式
+
+- [ ] 文档
+  - [ ] [wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+  - [ ] [中文版维基百科](<https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_(%E8%AE%A1%E7%AE%97%E6%9C%BA)>)
+- [ ] 推荐书籍
+  - [ ] 《Head First Design Pattern》 也有中文版的
+  - [ ] 《Design Patterns: Elements of Reusable Object-Oriented Software》 设计模式：可复用面向对象软件的基础
 
 #### 其他零散但重要的知识点
 
@@ -675,6 +688,7 @@ React 状态管理可谓百花齐放百家争鸣，远远不止笔者列的这�
 
 - [文档](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching)
 - [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)，浏览器缓存机制与性能优化息息相关
+- [图解 Http 缓存控制之 max-age=0、no-cache、no-store 区别](https://zhuanlan.zhihu.com/p/55623075)，很有趣的图解文章
 
 ### Devtools
 
